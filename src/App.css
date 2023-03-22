@@ -1,10 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
+  color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +47,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* NAVBAR */
+/* .navbar {
+  width: 100%;
+  font-size: 18px;
+} */
+.navLink:focus {
+  font-weight: 700;
+  border-bottom: 3px  solid rgb(243, 33, 145);
+  
+  
+} 
+.navbar{
+  width: 100%;
+  justify-content: space-around;
+}
+/* LOGIN */
+/* .loginPage{
+  display: block;
+  width: 100%;
+  padding: 18px;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 20px;
+ 
+} */
+
+/* ICONS */
+.FaceBook{
+  color: #3b5998;
+}
+.Twitter{
+  color: #1DA1F2;
+}
+
+/* .LOGO{
+  background-color: #f2f6f8;
+} */
